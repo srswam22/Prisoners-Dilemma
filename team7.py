@@ -12,7 +12,7 @@ strategy_description = 'We will betray every third time regardless of what the o
     
 def move(my_history, their_history, my_score, their_score):
     # This player colludes on every third round (first round is round #0).
-    if len(my_history)%3 == 0:
+    if len(my_history)%5 == 0:
         return 'b'
     else:
         return 'c'
