@@ -7,7 +7,7 @@
 ####
 
 team_name = "a and w"  # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
+strategy_name = 'one in a million'
 strategy_description = 'How does this strategy decide?'
    
     
