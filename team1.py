@@ -24,7 +24,7 @@ def move(my_history, their_history, my_score, their_score):
         return 'b'
     
     else: 
-        r= random.randint(1,100)
+        r= random.randint(1,1000)
         if r==5:
             return 'c'
         else:
